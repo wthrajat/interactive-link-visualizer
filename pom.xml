@@ -1,0 +1,46 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>org.xwiki.contrib</groupId>
+    <artifactId>parent-platform</artifactId>
+    <version>10.11</version>
+  </parent>
+  <artifactId>application-link-visualizer-ui</artifactId>
+  <version>1.0.0</version>
+  <name>XWiki Link Visualizer</name>
+  <packaging>pom</packaging>
+  <description>XWiki Link Visualizer is an interactive extension that enables users to visually explore and analyze link relationships within XWiki pages through dynamic network graph
+</description>
+  <scm>
+    <connection></connection>
+    <developerConnection></developerConnection>
+    <url></url>
+    <tag>HEAD</tag>
+  </scm>
+  <developers>
+    <developer>
+      <id>wthrajat</id>
+      <name>Rajat Khanduri</name>
+    </developer>
+    <developer>
+      <id>michitux</id>
+      <name>Michael Hamann</name>
+    </developer>
+  </developers>
+  <modules>
+    <module></module>
+    <module></module>
+  </modules>
+  <properties>
+    <xwiki.issueManagement.jira.id></xwiki.issueManagement.jira.id>
+    <xwiki.release.jira.skip></xwiki.release.jira.skip>
+  </properties>
+  <profiles>
+    <profile>
+      <id>integration-tests</id>
+      <modules>
+        <module></module>
+      </modules>
+    </profile>
+  </profiles>
+</project>
